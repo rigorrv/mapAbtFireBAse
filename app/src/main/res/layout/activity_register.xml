@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/AccordionOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- MAps and Links -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_height="match_parent"
+            android:background="#3985C3"
+            android:weightSum="100">
+
+            <!-- Titulo -->
+            <LinearLayout
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20">
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/goback_1"
+                            android:layout_margin="10px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_1"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_2"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_3"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_4"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_5"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_6"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_7"/>
+                        <ImageView
+                            android:visibility="gone"
+                            android:layout_margin="10px"
+                            android:id="@+id/goback_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/goback_8"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50">
+                        <ImageView
+                            android:layout_margin="15px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/logohead"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="20">
+                        <ImageView
+                            android:padding="20px"
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/menuBAckBTN1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/close_menu"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Logo Adding Meetings -->
+            <LinearLayout
+                android:layout_marginTop="10px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_weight="80"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:weightSum="100"                        >
+
+
+                        <ImageView
+                            android:layout_margin="15px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/meeting_logo"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Meeting name and icon -->
+            <LinearLayout
+                android:layout_marginTop="10px"
+                android:paddingTop="10px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+
+                <LinearLayout
+                    android:id="@+id/Favorities"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginBottom="20px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/shadow"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="100"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+                            <EditText
+                                android:paddingLeft="30px"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/meetingName"
+                                android:hint="Meeting Name"
+                                android:textSize="20sp"
+                                android:singleLine="true"
+                                android:background="@null"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_weight="80"
+                    android:gravity="bottom"
+                    android:background="@drawable/shadow"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/meetingAcordionBTN"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <LinearLayout
+                            android:layout_marginLeft="40px"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+
+                            <ImageView
+                                android:id="@+id/icon_meeting_demo"
+                                android:layout_margin="10px"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/gray_icon"
+                                />
+
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/icon_meeting_bg"
+                                android:layout_margin="10px"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="20px"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="90"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+
+
+                            <TextView
+                                android:gravity="center_vertical"
+                                android:id="@+id/meeting_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="Meeting Type"
+                                android:textSize="20sp"
+                                android:singleLine="true"
+                                android:background="@null"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Reahb Type Meeting acordion -->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/meetingAcordion"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginBottom="20px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN0"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_1"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Alocoholics Anonymous"
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN1"
+
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_2"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Heroin Anonymous"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN2"
+
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_3"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Narcotics Anonymous"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN3"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_4"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cocaine Anonymous"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN4"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_5"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nar Anon"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN5"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_6"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Anon"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN6"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:background="@drawable/shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_7"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="CMA"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/meetingBTN7"
+                        android:layout_marginBottom="20px"
+                        android:background="@drawable/shadow"
+                        android:layout_marginTop="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_marginLeft="20px"
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <ImageView
+                                    android:layout_margin="5px"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/icon_8"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="90"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Celebrate Recovery"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <!-- Address or Current location -->
+            <LinearLayout
+                android:layout_marginTop="20px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6.5"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/shadow"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <LinearLayout
+                            android:id="@+id/formAcordionBTN"
+                            android:layout_marginLeft="40px"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="30.5"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            >
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/checkMArk1"
+                                android:layout_margin="15px"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/check_mark"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#214761"
+                                android:textAlignment="textStart"
+                                android:text="Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="15"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#214761"
+                                android:textAlignment="center"
+                                android:text="or"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/currentLocation"
+                            android:layout_marginRight="40px"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="52.5"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            >
+                            <ImageView
+                                android:id="@+id/checkMArk2"
+                                android:layout_margin="15px"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/check_mark"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#214761"
+                                android:text="Use Current Location"
+                                android:layout_width="match_parent"
+                                android:textAlignment="textStart"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!-- Address form -->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/formAcordion"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginBottom="20px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="#244F6A"
+                    >
+
+                    <LinearLayout
+                        android:layout_marginTop="20px"
+                        android:layout_marginBottom="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:layout_weight="25"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="25"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+
+
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@drawable/shadow"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="70"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/addressLocation"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="20sp"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="5px"
+                        android:layout_marginBottom="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:layout_weight="25"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="25"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+
+
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="City"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@drawable/shadow"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="70"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/cityLocation"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="20sp"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="5px"
+                        android:layout_marginBottom="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:layout_weight="25"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="25"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+
+
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="State"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@drawable/shadow"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="70"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/stateLocation"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="20sp"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="5px"
+                        android:layout_marginBottom="10px"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:layout_weight="25"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="25"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <TextView
+
+
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Zip Code"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@drawable/shadow"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="70"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                >
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/regZipCode"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="20sp"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <!-- Days of the week -->
+            <LinearLayout
+                android:layout_marginTop="20px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7.5"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginBottom="20px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="80"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"                        >
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek0"
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Sun"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek1"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Mon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek2"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Tue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek3"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Wed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek4"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Thu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek5"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Fri"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dayWeek6"
+
+                                android:layout_marginRight="5px"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="14"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/bluebtn_bg_meting"
+                                >
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:textColor="@android:color/white"
+                                    android:text="Sat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Hours of the week -->
+            <LinearLayout
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="20px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6.5"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+                <LinearLayout
+                    android:background="@drawable/shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="100"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/timeLinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <EditText
+                            android:visibility="gone"
+                            android:textColor="#214761"
+                            android:textStyle="bold"
+                            android:paddingLeft="30px"
+                            android:hint="10:00PM"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"/>
+
+                        <EditText
+                            android:paddingLeft="30px"
+                            android:textStyle="bold"
+                            android:id="@+id/timeEvent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="00:00PM/AM"
+                            android:background="@null"
+                            />
+                        <!--
+                        <com.vicmikhailau.maskededittext.MaskedEditText
+                            android:paddingLeft="30px"
+                            android:textStyle="bold"
+                            android:id="@+id/timeEvent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="00:00PM/AM"
+                            app:mask="##:##AA"
+                            android:background="@null"
+                            />
+                            -->
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!-- Meeting name and icon -->
+            <LinearLayout
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="40px"
+                android:paddingTop="10px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:background="@drawable/bluebtn_bg_meting"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+                <LinearLayout
+                    android:layout_marginTop="10px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginLeft="40px"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="25"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add Optional comments on the meeting"
+                            android:singleLine="true"
+                            />
+                        <TextView
+                            android:textColor="#244F6A"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Example: Open Book, Wheel chair access "
+                            android:singleLine="true"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginBottom="20px"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/shadow"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="100"
+                            android:orientation="vertical"
+                            android:gravity="top"
+                            >
+                            <EditText
+                                android:id="@+id/info"
+                                android:paddingLeft="30px"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Open Book, Blah blah"
+                                android:textSize="17sp"
+                                android:background="@null"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!-- Button submit Approval -->
+            <LinearLayout
+                android:layout_marginTop="30px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7.5"
+                android:orientation="vertical">
+
+                <!-- Botones -->
+
+                <LinearLayout
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="100"                        >
+
+                        <LinearLayout
+                            android:background="@drawable/bluebtn_bg_border"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="50"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            >
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="@android:color/white"
+                                android:textAlignment="center"
+                                android:text="Submit For Approval"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

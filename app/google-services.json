@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "373833513746",
+    "firebase_url": "https://abt-map-firebase.firebaseio.com",
+    "project_id": "abt-map-firebase",
+    "storage_bucket": "abt-map-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373833513746:android:7d191e0659a33184e9d1cb",
+        "android_client_info": {
+          "package_name": "com.example.notificacionesfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373833513746-sb1h2e2eg5trlvmcj9vca4c9bns2009e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEJ5FSc8xU68j1GxFVoFkUFMd4peWMkwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373833513746-sb1h2e2eg5trlvmcj9vca4c9bns2009e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

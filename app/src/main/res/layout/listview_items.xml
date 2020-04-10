@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Elements For Buttons Map -->
+    <LinearLayout
+        android:padding="10px"
+        android:id="@+id/ButtonsMap"
+       android:layout_marginTop="5px"
+       android:layout_marginBottom="5px"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:background="#CC4A48"
+       >
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginLeft="30px"
+           android:layout_marginRight="50px"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/hourMeeting"
+               android:text="10:00 PM"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:id="@+id/distanceMeeting"
+               android:text="1000 miles"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="@android:color/white"
+               android:id="@+id/SubjectFullFormTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="8pt" />
+           <TextView
+               android:id="@+id/SubjectNameTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/white"
+               android:textSize="6pt" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <!-- Elements For Element Selected Info -->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ListViewInfo"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/white"
+                android:text="10:00 PM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@android:color/white"
+                android:text="1000 miles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/SubjectFullFormTextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="6pt" />
+            <TextView
+                android:id="@+id/SubjectNameTextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="6pt" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
